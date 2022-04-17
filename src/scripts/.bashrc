@@ -1,9 +1,14 @@
 # This configurations is for Oh My Zsh running on a WSL
+# Useful Programs
+# 1) OhMY Zsh
+# 2) NGROK
+
 alias projects="cd /mnt/c/projects"
 alias ..="cd .."
 alias /="cd /"
 alias top="bpytop"
-alias subl="/mnt/c/Program Files/Sublime Text/subl.exe"
+alias subl="/mnt/c/Program\ Files/Sublime\ Text/subl.exe"
+alias serve="python3 -m http.server 8080"
 acp(){
    git add .;
    git commit -m "$1";
